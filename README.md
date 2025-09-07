@@ -20,10 +20,10 @@ The project includes a **Machine Learning model (Decision Tree)** and a **Power 
 
 ---
 
-## 📂 Files in this Repository
-- 📘 [`Healthcare Appointment No Show Prediction.ipynb`](./Healthcare%20Appointment%20no%20show%20prediction%20i.ipynb) → Data preprocessing + ML model  
-- 📊 [`Healthcare Appointment No Show Prediction.pbix`](./Healthcare%20appointement%20no%20show%20prediction.pbix) → Power BI dashboard  
-- 📝 `README.md` → Project documentation  
+## 📥 Download Links
+- 📘 [Jupyter Notebook (.ipynb)](./Healthcare%20Appointment%20no%20show%20prediction.ipynb)  
+- 📊 [Power BI Dashboard (.pbix)](./Healthcare%20appointement%20no%20show%20prediction.pbix)  
+
 
 ---
 
