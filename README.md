@@ -1,37 +1,51 @@
-# 🏥 Healthcare Appointment No-Show Prediction
+#  🏥 Healthcare Appointment No-Show Prediction
 
-This project predicts whether a patient will **attend or miss their medical appointment**.  
-It helps healthcare providers **optimize scheduling, reduce no-shows, and improve efficiency**.  
-The project includes a **Machine Learning model (Decision Tree)** and a **Power BI Dashboard** for insights.  
+This project predicts whether patients will show up for their hospital appointments, helping healthcare providers reduce no-shows, optimize scheduling, and improve resource utilization through data-driven insights.
 
 ---
 
-## 📌 Objective
-- Predict no-shows based on patient and appointment data.  
-- Analyze the effect of **SMS reminders, show vs no show, appointments, and patient history** on attendance.  
-- Provide actionable insights through an interactive dashboard.  
+##  Project Overview
+
+- **Objective:** Predict appointment no-shows using historical data, and build a Power BI dashboard to visualize key insights such as reminder effectiveness and model performance.
+- **Approach:** Data cleaning → Decision Tree model training in Python → Evaluation (Accuracy, F1 Score, Precision, Recall) → Visualization in Power BI.
 
 ---
 
-## 🛠 Tools Used
-- **Python** → Data cleaning, model training (`Pandas`, `Scikit-learn`)  
-- **Jupyter Notebook** → Model building and evaluation  
-- **Power BI** → Dashboard creation and visualization  
+##  Tools Used
+
+| Tool          | Purpose                                      |
+|---------------|----------------------------------------------|
+| Python        | Data preprocessing & model training (Pandas, Scikit-learn) |
+| Jupyter Notebook | Experimentation, model building, documentation |
+| Power BI      | Develop interactive dashboard visualization  |
 
 ---
 
-## 📥 Download Links
-- 📘 [Jupyter Notebook (.ipynb)](./Healthcare%20Appointment%20no%20show%20prediction.ipynb)  
-- 📊 [Power BI Dashboard (.pbix)](./Healthcare%20appointement%20no%20show%20prediction.pbix)  
+##  Project Files & Download Links
 
+-  **Jupyter Notebook** – Model development and evaluation:  
+  [View or Download Notebook](https://github.com/bindurag1807/Healthcare-Appointment-No-Show-Prediction/blob/main/Healthcare%20Appointment%20no%20show%20prediction%20.ipynb)
+
+-  **Power BI Dashboard (.pbix)** – Interactive insights and visualizations:  
+  [View or Download Dashboard](https://github.com/bindurag1807/Healthcare-Appointment-No-Show-Prediction/blob/main/Healthcare%20appointemnet%20no%20show%20prediction.pbix)
 
 ---
 
-## 📊 Dashboard Preview
-The dashboard provides insights such as:
-- **Overall Attendance**
-- **High-Risk Patients**
-- **Impact of SMS Reminder**
-- **Model Performance (Precision, Recall, F1, Accuracy)**  
+##  Dashboard Features
 
+The included Power BI dashboard showcases:
+-  Overall attendance vs. no-show rates  
+-  High-risk patient analysis  
+-  Impact of SMS reminders on no-shows  
+-  Model performance metrics (Precision, Recall, F1 Score, Accuracy) visualized clearly
+
+---
+
+##  Results Summary
+
+| Metric           | Value         |
+|------------------|---------------|
+| Model Accuracy   | 77.44%        |
+| F1 Score         | 0.87          |
+| Reminder Impact  | Slight reduction in no-show rate when SMS reminders were sent |
 
