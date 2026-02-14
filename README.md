@@ -17,7 +17,7 @@ This project builds a machine learning model to predict whether a patient will a
 
 The goal is to help healthcare providers take proactive measures such as targeted reminders and optimized scheduling.
 
-🎯 Business Objective
+## 🎯 Business Objective
 
 The primary objective of this project is:
 
@@ -33,7 +33,8 @@ Improve operational efficiency
 
 Reduce financial losses due to no-shows
 
-📊 Dataset Description
+## 📊 Dataset Description
+
 
 The dataset contains historical medical appointment records. Each row represents one appointment.
 
@@ -73,7 +74,7 @@ Scheduled Day
 
 Appointment Day
 
-🛠 Tools & Technologies Used
+## 🛠 Tools & Technologies Used
 
 Python
 
@@ -89,7 +90,7 @@ Scikit-Learn
 
 Jupyter Notebook
 
-🔍 Data Preprocessing
+## 🔍 Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -109,7 +110,7 @@ Split dataset into features (X) and target variable (y)
 
 Performed train-test split (80% training, 20% testing)
 
-📈 Exploratory Data Analysis (EDA)
+## 📈 Exploratory Data Analysis (EDA)
 
 Exploratory analysis was conducted to understand patterns in the dataset.
 
@@ -137,7 +138,7 @@ Bar charts
 
 EDA helped identify important variables that influence attendance behavior.
 
-🤖 Model Building
+## 🤖 Model Building
 
 The following machine learning models were implemented:
 
@@ -149,7 +150,7 @@ Random Forest
 
 The dataset was split into training and testing sets to evaluate model performance.
 
-📊 Model Evaluation
+## 📊 Model Evaluation
 
 Models were evaluated using:
 
@@ -172,7 +173,7 @@ Random Forest	0.82	0.80	0.85
 
 Random Forest performed better compared to Logistic Regression in terms of overall accuracy and ROC-AUC score.
 
-🔎 Key Insights
+## 🔎 Key Insights
 
 Patients with longer waiting days are more likely to miss appointments.
 
@@ -182,7 +183,7 @@ Age is an important predictor.
 
 Financial aid (Scholarship) shows some influence on attendance behavior.
 
-💼 Business Impact
+## 💼 Business Impact
 
 This predictive model can help healthcare providers:
 
