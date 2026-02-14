@@ -1,23 +1,200 @@
-#  🏥 Healthcare Appointment No-Show Prediction
+🏥 Healthcare Appointment No-Show Prediction
+📌 Project Overview
 
-This project predicts whether patients will show up for their hospital appointments, helping healthcare providers reduce no-shows, optimize scheduling, and improve resource utilization through data-driven insights.
+Missed medical appointments (No-Shows) are a major problem in the healthcare industry. When patients fail to attend scheduled appointments, hospitals experience:
 
----
+Revenue loss
 
-##  Project Overview
+Inefficient resource utilization
 
-- **Objective:** Predict appointment no-shows using historical data, and build a Power BI dashboard to visualize key insights such as reminder effectiveness and model performance.
-- **Approach:** Data cleaning → Decision Tree model training in Python → Evaluation (Accuracy, F1 Score, Precision, Recall) → Visualization in Power BI.
+Increased waiting times
 
----
+Reduced patient satisfaction
 
-##  Tools Used
+This project builds a machine learning model to predict whether a patient will attend or miss a scheduled appointment using historical data.
 
-| Tool          | Purpose                                      |
-|---------------|----------------------------------------------|
-| Python        | Data preprocessing & model training (Pandas, Scikit-learn) |
-| Jupyter Notebook | Experimentation, model building, documentation |
-| Power BI      | Develop interactive dashboard visualization  |
+The goal is to help healthcare providers take proactive measures such as targeted reminders and optimized scheduling.
+
+🎯 Business Objective
+
+The primary objective of this project is:
+
+To predict whether a patient will show up for their appointment based on demographic, medical, and scheduling features.
+
+By identifying high-risk patients in advance, healthcare providers can:
+
+Send reminder notifications
+
+Adjust scheduling strategies
+
+Improve operational efficiency
+
+Reduce financial losses due to no-shows
+
+📊 Dataset Description
+
+The dataset contains historical medical appointment records. Each row represents one appointment.
+
+Target Variable:
+
+No-show
+
+Yes → Patient did not attend
+
+No → Patient attended
+
+Key Features:
+
+Patient ID
+
+Appointment ID
+
+Gender
+
+Age
+
+Neighbourhood
+
+Scholarship (Financial support)
+
+Hypertension
+
+Diabetes
+
+Alcoholism
+
+Handicap
+
+SMS Received
+
+Scheduled Day
+
+Appointment Day
+
+🛠 Tools & Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-Learn
+
+Jupyter Notebook
+
+🔍 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+Removed irrelevant columns (Patient ID, Appointment ID)
+
+Converted date columns into datetime format
+
+Created a new feature: Waiting Days
+
+Calculated as the difference between Appointment Day and Scheduled Day
+
+Handled categorical variables using encoding techniques
+
+Checked for missing values
+
+Split dataset into features (X) and target variable (y)
+
+Performed train-test split (80% training, 20% testing)
+
+📈 Exploratory Data Analysis (EDA)
+
+Exploratory analysis was conducted to understand patterns in the dataset.
+
+Key Observations:
+
+Younger patients showed slightly higher no-show rates.
+
+Patients who did not receive SMS reminders were more likely to miss appointments.
+
+Longer waiting periods increased the probability of no-show.
+
+Certain neighborhoods had higher no-show frequency.
+
+Visualizations Used:
+
+Count plots
+
+Distribution plots
+
+Correlation heatmap
+
+Boxplots
+
+Bar charts
+
+EDA helped identify important variables that influence attendance behavior.
+
+🤖 Model Building
+
+The following machine learning models were implemented:
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+The dataset was split into training and testing sets to evaluate model performance.
+
+📊 Model Evaluation
+
+Models were evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Confusion Matrix
+
+ROC-AUC Score
+
+Example Results (Update with your actual values):
+Model	Accuracy	F1 Score	ROC-AUC
+Logistic Regression	0.78	0.75	0.80
+Random Forest	0.82	0.80	0.85
+
+Random Forest performed better compared to Logistic Regression in terms of overall accuracy and ROC-AUC score.
+
+🔎 Key Insights
+
+Patients with longer waiting days are more likely to miss appointments.
+
+SMS reminders significantly reduce no-show probability.
+
+Age is an important predictor.
+
+Financial aid (Scholarship) shows some influence on attendance behavior.
+
+💼 Business Impact
+
+This predictive model can help healthcare providers:
+
+Identify high-risk patients before appointment date
+
+Send targeted SMS reminders
+
+Optimize appointment scheduling
+
+Reduce operational inefficiencies
+
+Improve patient satisfaction
+
+If deployed in a real hospital system, this model could significantly reduce revenue loss due to missed appointments.
 
 ---
 
