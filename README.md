@@ -1,5 +1,7 @@
-🏥 Healthcare Appointment No-Show Prediction
-📌 Project Overview
+# 🏥 Healthcare Appointment No-Show Prediction  
+
+### Predicting Patient Appointment Attendance Using Machine Learning
+
 
 Missed medical appointments (No-Shows) are a major problem in the healthcare industry. When patients fail to attend scheduled appointments, hospitals experience:
 
